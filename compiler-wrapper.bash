@@ -683,7 +683,7 @@ function setup_pre_defined_data()
 	-msse4.1 -msse4.2 -mssse3 -pedantic -march=native
 	-fopenmp -ffast-math 
 	-fast -ffast-math -dumpfullversion
-	-Wno-cast-function-type
+	-Wno-cast-function-type -Wpedantic
     )
     
     Pre_defined_invalid_flags_for_GNU_compilers=(
